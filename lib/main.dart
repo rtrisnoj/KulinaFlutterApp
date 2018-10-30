@@ -2,11 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:startup_namer/HomePage.dart';
 import 'dart:async';
 
+
 void main() {
   runApp(new MaterialApp(
     home: new SplashScreen(),
     routes: <String, WidgetBuilder>{
-      '/HomeScreen': (BuildContext context) => new HomeScreen()
+      '/HomeScreen': (BuildContext context) => new HomeScreen(),
+      //'/OrderPage': (BuildContext context) => new OrderLogin(),
     },
   ));
 }
